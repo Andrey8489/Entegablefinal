@@ -9,15 +9,16 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: #EEE;
+    background-color: red;
+    color: yellowgreen;
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
   }
   .heroes li:hover {
-    color: #607D8B;
-    background-color: #DDD;
+    color: red;
+    background-color: yellow;
     left: .1em;
   }
   .heroes li.selected {
@@ -41,4 +42,8 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
+  }
+  .table{
+    background-color: aqua;
+    color: yellow;
   }

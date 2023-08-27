@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 h1{
-    color: #369;
+    color:palevioletred;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
 }
 h2, h3{
-    color: #444;
+    color: chocolate;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -13,15 +13,15 @@ body {
         margin: 2em;
 }
 body, input[type="text"], button {
-    color: #444;
+    color: blue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 button {
-    background-color: #eee;
+    background-color: brown;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    color: black;
+    color: yellow;
     font-size: 1.2rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -29,7 +29,7 @@ button {
 }
 button:hover{
     background-color: black;
-    color: rgb(8, 7, 7);
+    color: white;
 }
 button:disabled{
     background-color: #eee;
@@ -39,4 +39,14 @@ button:disabled{
 /* everywhere else */
 *{
     font-family: Arial, Helvetica, sans-serif;
+}   
+/* color cards*/
+.card{
+    color: black;
+    background-color: yellow;
+
+}
+/* cuenrpo */
+.body{
+    color:yellow;
 }
